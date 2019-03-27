@@ -16,4 +16,5 @@
       --> portConfig.md
       --> README.md
      # exercise
-# exercise
+
+慢慢加上数据库连接,redis缓存,elk日志分析工具,定时器等日常中间件
