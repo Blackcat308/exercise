@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bc-admin" />
+        <module name="bc-app" />
+        <module name="bc-config" />
+        <module name="bc-feign" />
+        <module name="bc-web" />
+        <module name="bc-zuul" />
+        <module name="eureka-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bc-admin" target="1.8" />
+      <module name="bc-app" target="1.8" />
+      <module name="bc-config" target="1.8" />
+      <module name="bc-feign" target="1.8" />
+      <module name="bc-web" target="1.8" />
+      <module name="bc-zuul" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="exercise" target="1.8" />
+      <module name="exercise-eureka" target="1.8" />
+      <module name="exercise-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
