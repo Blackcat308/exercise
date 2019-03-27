@@ -10,7 +10,7 @@ spring:
       label: master
       profile: dev
       discovery:
-        enabled: true
+        enabled: false
         service-id: bc-config
 
 eureka:
