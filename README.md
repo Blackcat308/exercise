@@ -6,21 +6,18 @@
 写在前边:
     这个项目只是为了自己练习与提高对springcloud的理解、每个人代码实现水平不均、有不合理的地方请提出来，thanks!
     
-**项目构成**
-    exercise
-      --> eureka-server
-      --> bc-config
-      --> bc-zuul
-      --> bc-feign
-      --> bc-web
-      --> bc-admin
-      --> bc-app
-      --> bc-web
-      --> common
-      --> pom.xml
-      --> portConfig.md
-      --> README.md
-     # exercise
+## 工程结构
+``` 
+exercise
+├── bc-admin --  admin服务
+├── bc-app --  app服务
+├── bc-config --  公共配置
+├── bc-feign -- 对外API
+├── bc-web -- web服务
+├── bc-zuul -- 网关
+├── common -- 常用工具封装包
+└── eureka-server -- 服务注册
+```
 
 慢慢加上数据库连接,redis缓存,elk日志分析工具,定时器等日常中间件
 
