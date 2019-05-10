@@ -13,6 +13,10 @@
       --> bc-zuul
       --> bc-feign
       --> bc-web
+      --> bc-admin
+      --> bc-app
+      --> bc-web
+      --> common
       --> pom.xml
       --> portConfig.md
       --> README.md
@@ -23,7 +27,9 @@
 -------
 2019年3月27日 22:37:06
 将bc-config配置为公共远程访问
-
+------
+2019年5月10日 10:47:19
+增加数据源、配置mybatis、为zuul增加过滤
 
 
 blog地址:https://blog.csdn.net/ProGram_BlackCat/article/details/88850097

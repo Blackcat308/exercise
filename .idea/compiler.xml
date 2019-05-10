@@ -12,6 +12,7 @@
         <module name="bc-feign" />
         <module name="bc-web" />
         <module name="bc-zuul" />
+        <module name="common" />
         <module name="eureka-server" />
       </profile>
     </annotationProcessing>
@@ -22,10 +23,23 @@
       <module name="bc-feign" target="1.8" />
       <module name="bc-web" target="1.8" />
       <module name="bc-zuul" target="1.8" />
+      <module name="common" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="exercise" target="1.8" />
       <module name="exercise-eureka" target="1.8" />
       <module name="exercise-zuul" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bc-admin" options="-parameters" />
+      <module name="bc-app" options="-parameters" />
+      <module name="bc-config" options="-parameters" />
+      <module name="bc-feign" options="-parameters" />
+      <module name="bc-web" options="-parameters" />
+      <module name="bc-zuul" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+    </option>
   </component>
 </project>

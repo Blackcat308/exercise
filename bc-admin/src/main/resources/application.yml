@@ -12,10 +12,18 @@ spring:
       discovery:
         enabled: false
         service-id: bc-config
+  datasource:
+    url: jdbc:mysql://localhost/admin?useUnicode=true&characterEncoding=utf-8
+    password: root
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
 
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:9001/eureka/
-
+mybatis:
+  type-aliases-package: exercise.bc.admin.*.entity
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/*/*.xml
 

@@ -11,10 +11,17 @@ spring:
       profile: dev
       uri: http://localhost:9999
       label: master
-
+  datasource:
+    url: jdbc:mysql://localhost/web?useUnicode=true&characterEncoding=utf-8
+    password: root
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
 #eureka:
 #  client:
 #    service-url:
 #      defaultZone: http://localhost:9001/eureka/
 
-
+mybatis:
+  type-aliases-package: exercise.bc.web.*.entity
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/*/*.xml

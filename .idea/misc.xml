@@ -23,4 +23,15 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
+  <component name="com.a.a.a.g.d.f">
+    <domainId />
+    <mapperDomain>
+      <pair>
+        <mapper>exercise.bc.web.user.mapper.UserMapper</mapper>
+        <method>ListUser</method>
+        <domain>exercise.bc.web.user.entity.User</domain>
+      </pair>
+    </mapperDomain>
+    <backquoteDomain />
+  </component>
 </project>

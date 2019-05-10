@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/bc-feign/bc-feign.iml" filepath="$PROJECT_DIR$/bc-feign/bc-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/bc-web/bc-web.iml" filepath="$PROJECT_DIR$/bc-web/bc-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/bc-zuul/bc-zuul.iml" filepath="$PROJECT_DIR$/bc-zuul/bc-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercise.iml" filepath="$PROJECT_DIR$/exercise.iml" />
     </modules>
