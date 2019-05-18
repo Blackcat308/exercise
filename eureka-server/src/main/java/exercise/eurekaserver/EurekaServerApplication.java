@@ -15,30 +15,8 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 @EnableEurekaServer
 public class EurekaServerApplication {
 
-	private static final Logger logger = LoggerFactory.getLogger(EurekaServerApplication.class);
-
 	public static void main(String[] args) {
 		SpringApplication.run(EurekaServerApplication.class, args);
-		StringBuffer sb = new StringBuffer("                       .::::.\n");
-		sb.append("                     .::::::::.\n")
-				.append("                    :::::::::::\n")
-				.append("                 ..:::::::::::'\n")
-				.append("              '::::::::::::'\n")
-				.append("                .::::::::::\n")
-				.append("           '::::::::::::::..\n")
-				.append("                ..::::::::::::.\n")
-				.append("              ``::::::::::::::::\n")
-				.append("               ::::``:::::::::'        .:::.\n")
-				.append("              ::::'   ':::::'       .::::::::.\n")
-				.append("            .::::'      ::::     .:::::::'::::.\n")
-				.append("           .:::'       :::::  .:::::::::' ':::::.\n")
-				.append("          .::'        :::::.:::::::::'      ':::::.\n")
-				.append("         .::'         ::::::::::::::'         ``::::.\n")
-				.append("     ...:::           ::::::::::::'              ``::.\n")
-				.append("    ```` ':.          ':::::::::'                  ::::..\n")
-				.append("                       '.:::::'                    ':'````..\n")
-				.append("                     beauty Bless, No Bug !                ");
-		logger.info(sb.toString());
 	}
 
 }

@@ -11,6 +11,7 @@
         <module name="bc-config" />
         <module name="bc-feign" />
         <module name="bc-web" />
+        <module name="bc-wechat-mp" />
         <module name="bc-zuul" />
         <module name="common" />
         <module name="eureka-server" />
@@ -22,6 +23,7 @@
       <module name="bc-config" target="1.8" />
       <module name="bc-feign" target="1.8" />
       <module name="bc-web" target="1.8" />
+      <module name="bc-wechat-mp" target="1.8" />
       <module name="bc-zuul" target="1.8" />
       <module name="common" target="1.8" />
       <module name="eureka-server" target="1.8" />
@@ -37,6 +39,7 @@
       <module name="bc-config" options="-parameters" />
       <module name="bc-feign" options="-parameters" />
       <module name="bc-web" options="-parameters" />
+      <module name="bc-wechat-mp" options="-parameters" />
       <module name="bc-zuul" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
