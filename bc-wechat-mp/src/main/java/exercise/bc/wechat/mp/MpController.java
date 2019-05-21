@@ -15,7 +15,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 
 @RestController
-public class controller {
+public class MpController {
 
     private static WXBizMsgCrypt wxBizMsgCrypt;
 
