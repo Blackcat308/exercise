@@ -19,6 +19,8 @@
 	<properties>
 		<common.version>1.0-SNAPSHOT</common.version>
 		<wx-java.version>3.3.0</wx-java.version>
+		<org-json.version>20171018</org-json.version>
+		<fastjson.version>1.2.32</fastjson.version>
 	</properties>
 
 	<dependencies>
@@ -45,6 +47,18 @@
 			<artifactId>weixin-java-mp</artifactId>
 			<version>${wx-java.version}</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>${org-json.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>${fastjson.version}</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>

@@ -16,7 +16,7 @@ public class UserController {
 
     /**
      * 功能描述:
-     *  用户集合
+     * 用户集合
      *
      * @param
      * @return : java.util.List<exercise.bc.web.user.entity.User>

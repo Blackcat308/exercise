@@ -10,8 +10,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @MapperScan("exercise.bc.admin.*.mapper")
 public class BcAdminApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(BcAdminApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(BcAdminApplication.class, args);
+    }
 
 }

@@ -11,27 +11,27 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @Description //TODO
  * @Date 11:03 2019/3/27
  **/
-@FeignClient(name = "bc-web",fallback = HelloServiceHystrix.class)
+@FeignClient(name = "bc-web", fallback = HelloServiceHystrix.class)
 public interface HelloService {
 
     /**
+     * @return java.lang.String
      * @Author BlackCat
      * @Description //TODO
      * @Date 11:03 2019/3/27
      * @Param []
-     * @return java.lang.String
      **/
-    @RequestMapping(value = "/",method = RequestMethod.GET)
+    @RequestMapping(value = "/", method = RequestMethod.GET)
     String sayHello();
 
     /**
+     * @return java.lang.String
      * @Author BlackCat
      * @Description //TODO
      * @Date 11:03 2019/3/27
      * @Param [name]
-     * @return java.lang.String
      **/
-    @RequestMapping(value = "sayHello/{name}",method = RequestMethod.GET)
+    @RequestMapping(value = "sayHello/{name}", method = RequestMethod.GET)
     String sayHello(@PathVariable("name") String name);
 
 }

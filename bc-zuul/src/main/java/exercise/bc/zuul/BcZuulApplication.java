@@ -19,20 +19,20 @@ import org.springframework.web.filter.CorsFilter;
 @EnableZuulProxy
 public class BcZuulApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(BcZuulApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(BcZuulApplication.class, args);
+    }
 
-	@Bean
-	public CorsFilter corsFilter() {
-		final UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-		final CorsConfiguration config = new CorsConfiguration();
-		config.setAllowCredentials(true);
-		config.addAllowedOrigin("*");
-		config.addAllowedHeader("*");
-		config.addAllowedMethod("*");
-		config.setMaxAge(18000L);
-		source.registerCorsConfiguration("/**", config);
-		return new CorsFilter(source);
-	}
+    @Bean
+    public CorsFilter corsFilter() {
+        final UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+        final CorsConfiguration config = new CorsConfiguration();
+        config.setAllowCredentials(true);
+        config.addAllowedOrigin("*");
+        config.addAllowedHeader("*");
+        config.addAllowedMethod("*");
+        config.setMaxAge(18000L);
+        source.registerCorsConfiguration("/**", config);
+        return new CorsFilter(source);
+    }
 }

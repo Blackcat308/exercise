@@ -4,7 +4,6 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.context.annotation.ComponentScan;
 
 /**
  * @Author BlackCat
@@ -16,8 +15,8 @@ import org.springframework.context.annotation.ComponentScan;
 @MapperScan("exercise.bc.web.*.mapper")
 public class BcWebApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(BcWebApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(BcWebApplication.class, args);
+    }
 
 }

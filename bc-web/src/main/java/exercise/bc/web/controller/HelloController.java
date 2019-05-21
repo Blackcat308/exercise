@@ -18,11 +18,11 @@ public class HelloController {
     private String profile;
 
     /**
+     * @return java.lang.String
      * @Author BlackCat
-     * @Description //TODO 
+     * @Description //TODO
      * @Date 9:47 2019/3/27
      * @Param []
-     * @return java.lang.String
      **/
     @GetMapping("/")
     public String sayHello() {
@@ -30,11 +30,11 @@ public class HelloController {
     }
 
     /**
+     * @return java.lang.String
      * @Author BlackCat
      * @Description //TODO
      * @Date 11:02 2019/3/27
      * @Param [name]
-     * @return java.lang.String
      **/
     @GetMapping("/sayHello/{name}")
     public String sayHello(@PathVariable("name") String name) {
