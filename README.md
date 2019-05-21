@@ -16,6 +16,7 @@ exercise
 ├── bc-web -- web服务
 ├── bc-zuul -- 网关
 ├── common -- 常用工具封装包
+├── bc-wechat-mp -- 企业微信
 └── eureka-server -- 服务注册
 ```
 
@@ -31,6 +32,9 @@ exercise
 2019年5月10日 10:47:19
 增加数据源、配置mybatis、为zuul增加过滤
 
+-------
 
+2019年5月21日 14:49:08
+增加企业微信项目 待完善
 
 blog地址:https://blog.csdn.net/ProGram_BlackCat/article/details/88850097
